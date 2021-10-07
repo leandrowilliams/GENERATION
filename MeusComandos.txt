@@ -1,1 +1,12 @@
-Defini‡Æo de macro inv lida.
+git status
+git add .
+git status
+git tag -a v1.0.0 -m "Repeticao for while e do while"
+git add .
+git push -u origin main -m "Repeticao for while e do while"
+git status
+git commit -m "Repeticao for while e do while"
+git push -u origin main
+git tag -a v1.0.0 -m "Repeticao for while e do while"
+git push -u origin --tag
+doskey /h >MeusComandos.txt
