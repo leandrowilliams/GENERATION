@@ -1,0 +1,18 @@
+Fundamentos Web
+
+Bootstrap
+CSS
+HTML
+intro
+JS
+Videos Menores
+
+vai está na main
+depois tem que usar o comando
+git checkout -b html
+
+dentro do body
+<h1>Sobre o Leandro</h1>
+
+criar uma pasta para banco de imagens e videos, chamado "assets"
+
