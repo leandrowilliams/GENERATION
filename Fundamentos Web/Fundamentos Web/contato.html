@@ -31,12 +31,12 @@
         <div>
             <form>
                 <label for="nome">Nome:</label> <br>
-                <input type="text" id="nome">
-                <br>
+                <input type="text" id="nome" onekeyup='validaNome()'>
+                <div id="txtNome"></div>
                 <br>
                 <label for="email">E-mail:</label> <br>
-                <input type="email" id="email">
-                <br>
+                <input type="email" id="email" onkeyup='validaEmail()'>
+                <div id="txtEmail"></div>
                 <br>
                 <label for="assunto">Assunto:</label> <br>
                 <textarea name="assunto" id="assunto" cols="60" rows="10"></textarea>
@@ -78,6 +78,8 @@
         </p>
 
     </footer>
+
+    <script src="assets/js/script.js"></script>
 
 </body>
 
