@@ -1,0 +1,1 @@
+Descrição: Neste entregável você deve criar os componentes: Menu, Rodapé, home através do Material Ui. Ao finalizar suba o seu projeto no GitHub e o entregue aqui
