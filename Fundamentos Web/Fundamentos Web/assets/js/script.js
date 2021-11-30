@@ -19,11 +19,13 @@ let assunto = document.querySelector('#assunto')
 let nomeOk = false
 let emailOk = false
 let assuntoOk = false
+let mapa = document.querySelector('#mapa')
 
 nome.style.width = '100%'
 email.style.width = '100%'
 
 function validaNome() {
+
     let txtNome = document.querySelector ('#txtNome')
     if (nome.value.length < 3) {
        txtNome.innerHTML = 'Nome Inválido!!! '
@@ -38,7 +40,7 @@ function validaNome() {
 function validaEmail () {
     let txtEmail = document.querySelector('#txtEmail')
 
-    if (email.value.indexof('@') == -1 || email.value.indexof('.') == -1) {
+    if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1 ) {
         txtEmail.innerHTML = 'E-mail Inválido!!!'
         txtEmail.style.color = 'red'
     } else {
@@ -69,4 +71,14 @@ function enviar() {
     } else {
         alert ('Preencha o formulário corretamente antes de enviar ...')
     }
+}
+
+function mapaZoom() {
+    mapa.style.width = '800px'
+    mapa.style.height = '600px'
+}
+
+function mapaNormal() {
+    mapa.style.width = '400px'
+    mapa.style.height = '250px'
 }
